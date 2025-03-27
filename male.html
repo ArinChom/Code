@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ค่า BMR ของเพศชาย</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="top-male">
+        <a class="menu" href="home.html">หน้าหลัก</a>
+        <a class="menu" href="male.html">ชาย</a>
+        <a class="menu" href="female.html">หญิง</a>
+    </header>
+
+    <h3>กรอกข้อมูล</h3>
+    <label>น้ำหนัก (kg.)</label>
+    <input type="number" id="weight"><br>
+    <label>ส่วนสูง (cm.)</label>
+    <input type="number" id="height"><br>
+    <label>อายุ</label>
+    <input type="number" id="age"><br>
+    <button onclick="showBMR()">Submit</button>
+    
+    <h3>BMR: <span id="output"></span> </h3>
+
+    <script src = "bmr_male.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 5px;
+    margin: 15px;
+}
+
+label{
+    margin: 15px;
+}
+
+.top{
+    background-color: greenyellow;
+}
+
+.top-male{
+    background-color: deepskyblue;
+}
+
+.top-female{
+    background-color: lightpink;
+}
+
+.menu{
+    font-size: 25;
+    color: black;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
